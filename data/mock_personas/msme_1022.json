@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "Bharat Industries #1022",
+        "pan": "AAKCA1022M",
+        "gstin": "27BBBBB1022Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 15,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 655356,
+                    "tax_paid_inr": 117964,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 791199,
+                    "tax_paid_inr": 142415,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 885450,
+                    "tax_paid_inr": 159381,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 987431,
+                    "tax_paid_inr": 177737,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1086694,
+                    "tax_paid_inr": 195604,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1174036,
+                    "tax_paid_inr": 211326,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 58.51
+        },
+        "upi_data": {
+            "vpa": "factory1022@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 383191,
+                "total_transaction_count": 129,
+                "average_ticket_size_inr": 4584,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001022000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 3601,
+            "current_balance_inr": 960
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 4,
+            "ecs_mandate_failures": 3,
+            "inward_outward_ratio": 0.79,
+            "days_with_negative_or_zero_balance": 11
+        }
+    }
+}

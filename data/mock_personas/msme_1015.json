@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        "business_name": "Verma Enterprises #1015",
+        "pan": "BKPPS1015K",
+        "gstin": "27AAAAA1015Z1",
+        "constitution": "Proprietorship",
+        "segment": "NTC",
+        "archetype": "healthy_retailer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 24,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 485943,
+                    "tax_paid_inr": 24297,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 515273,
+                    "tax_paid_inr": 25763,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 498736,
+                    "tax_paid_inr": 24936,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 468325,
+                    "tax_paid_inr": 23416,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 470251,
+                    "tax_paid_inr": 23512,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 517018,
+                    "tax_paid_inr": 25850,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 12.25
+        },
+        "upi_data": {
+            "vpa": "merchant1015@okhdfcbank",
+            "summary_past_90_days": {
+                "total_volume_inr": 1304193,
+                "total_transaction_count": 4678,
+                "average_ticket_size_inr": 348,
+                "monthly_velocity_trend": "stable",
+                "weekend_vs_weekday_ratio": 1.17
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001015000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 7,
+                    "total_contribution_inr": 14000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 7,
+                    "total_contribution_inr": 14000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "State Bank of India",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 54378,
+            "current_balance_inr": 62591
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 0,
+            "ecs_mandate_failures": 0,
+            "inward_outward_ratio": 1.15,
+            "days_with_negative_or_zero_balance": 0
+        }
+    }
+}

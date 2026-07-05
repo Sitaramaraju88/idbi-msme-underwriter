@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "Matrix Logistics #1025",
+        "pan": "AAKCA1025M",
+        "gstin": "27BBBBB1025Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 30,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 768077,
+                    "tax_paid_inr": 138253,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 873689,
+                    "tax_paid_inr": 157264,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 957095,
+                    "tax_paid_inr": 172277,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 1044721,
+                    "tax_paid_inr": 188049,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1150444,
+                    "tax_paid_inr": 207079,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1267762,
+                    "tax_paid_inr": 228197,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 60.42
+        },
+        "upi_data": {
+            "vpa": "factory1025@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 275655,
+                "total_transaction_count": 97,
+                "average_ticket_size_inr": 4101,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001025000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 4288,
+            "current_balance_inr": 190
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 3,
+            "ecs_mandate_failures": 1,
+            "inward_outward_ratio": 0.9,
+            "days_with_negative_or_zero_balance": 9
+        }
+    }
+}

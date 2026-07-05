@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        "business_name": "Patel Kirana #1087",
+        "pan": "BKPPS1087K",
+        "gstin": "27AAAAA1087Z1",
+        "constitution": "Proprietorship",
+        "segment": "NTC",
+        "archetype": "healthy_retailer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 52,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 590556,
+                    "tax_paid_inr": 29527,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 548624,
+                    "tax_paid_inr": 27431,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 557825,
+                    "tax_paid_inr": 27891,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 534704,
+                    "tax_paid_inr": 26735,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 540245,
+                    "tax_paid_inr": 27012,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 537850,
+                    "tax_paid_inr": 26892,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 10.2
+        },
+        "upi_data": {
+            "vpa": "merchant1087@okhdfcbank",
+            "summary_past_90_days": {
+                "total_volume_inr": 1409092,
+                "total_transaction_count": 3484,
+                "average_ticket_size_inr": 390,
+                "monthly_velocity_trend": "stable",
+                "weekend_vs_weekday_ratio": 1.35
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001087000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 5,
+                    "total_contribution_inr": 10000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 5,
+                    "total_contribution_inr": 10000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "State Bank of India",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 62661,
+            "current_balance_inr": 55436
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 0,
+            "ecs_mandate_failures": 0,
+            "inward_outward_ratio": 1.14,
+            "days_with_negative_or_zero_balance": 0
+        }
+    }
+}

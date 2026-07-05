@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "Vanguard Castings #1097",
+        "pan": "AAKCA1097M",
+        "gstin": "27BBBBB1097Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 27,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 710729,
+                    "tax_paid_inr": 127931,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 840668,
+                    "tax_paid_inr": 151320,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 984385,
+                    "tax_paid_inr": 177189,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 1065447,
+                    "tax_paid_inr": 191780,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1209878,
+                    "tax_paid_inr": 217778,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1315317,
+                    "tax_paid_inr": 236757,
+                    "filed_on_time": false
+                }
+            ],
+            "concentration_risk_pct": 72.34
+        },
+        "upi_data": {
+            "vpa": "factory1097@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 212471,
+                "total_transaction_count": 162,
+                "average_ticket_size_inr": 4951,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001097000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 4691,
+            "current_balance_inr": 649
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 2,
+            "ecs_mandate_failures": 1,
+            "inward_outward_ratio": 0.89,
+            "days_with_negative_or_zero_balance": 16
+        }
+    }
+}

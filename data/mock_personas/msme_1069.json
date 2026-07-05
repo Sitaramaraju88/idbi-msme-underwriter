@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        "business_name": "Sharma Stores #1069",
+        "pan": "BKPPS1069K",
+        "gstin": "27AAAAA1069Z1",
+        "constitution": "Proprietorship",
+        "segment": "NTC",
+        "archetype": "healthy_retailer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 36,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 495076,
+                    "tax_paid_inr": 24753,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 493024,
+                    "tax_paid_inr": 24651,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 484470,
+                    "tax_paid_inr": 24223,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 516950,
+                    "tax_paid_inr": 25847,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 483524,
+                    "tax_paid_inr": 24176,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 472508,
+                    "tax_paid_inr": 23625,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 10.24
+        },
+        "upi_data": {
+            "vpa": "merchant1069@okhdfcbank",
+            "summary_past_90_days": {
+                "total_volume_inr": 1579465,
+                "total_transaction_count": 4968,
+                "average_ticket_size_inr": 378,
+                "monthly_velocity_trend": "stable",
+                "weekend_vs_weekday_ratio": 1.29
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001069000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 7,
+                    "total_contribution_inr": 14000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 7,
+                    "total_contribution_inr": 14000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "State Bank of India",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 50880,
+            "current_balance_inr": 54831
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 0,
+            "ecs_mandate_failures": 0,
+            "inward_outward_ratio": 1.16,
+            "days_with_negative_or_zero_balance": 0
+        }
+    }
+}

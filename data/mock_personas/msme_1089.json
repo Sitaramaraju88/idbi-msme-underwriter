@@ -1,0 +1,79 @@
+{
+    "metadata": {
+        "business_name": "Sai Baba Enterprises #1089",
+        "pan": "CLKPV1089P",
+        "gstin": "27CCCCC1089Z3",
+        "constitution": "Proprietorship",
+        "segment": "NTC",
+        "archetype": "micro_no_epfo"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 10,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 181379,
+                    "tax_paid_inr": 1813,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 170815,
+                    "tax_paid_inr": 1708,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 172113,
+                    "tax_paid_inr": 1721,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 181107,
+                    "tax_paid_inr": 1811,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 170826,
+                    "tax_paid_inr": 1708,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 179897,
+                    "tax_paid_inr": 1798,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 0.0
+        },
+        "upi_data": {
+            "vpa": "sai1089@okremit",
+            "summary_past_90_days": {
+                "total_volume_inr": 500084,
+                "total_transaction_count": 1704,
+                "average_ticket_size_inr": 188,
+                "monthly_velocity_trend": "stable",
+                "weekend_vs_weekday_ratio": 1.0
+            }
+        },
+        "epfo_data": null
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "ICICI Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 15070,
+            "current_balance_inr": 16986
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 0,
+            "ecs_mandate_failures": 0,
+            "inward_outward_ratio": 1.01,
+            "days_with_negative_or_zero_balance": 2
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "United Industries #1031",
+        "pan": "AAKCA1031M",
+        "gstin": "27BBBBB1031Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 23,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 699773,
+                    "tax_paid_inr": 125959,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 795278,
+                    "tax_paid_inr": 143150,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 922004,
+                    "tax_paid_inr": 165960,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 1019466,
+                    "tax_paid_inr": 183503,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1165375,
+                    "tax_paid_inr": 209767,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1310294,
+                    "tax_paid_inr": 235852,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 70.95
+        },
+        "upi_data": {
+            "vpa": "factory1031@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 427905,
+                "total_transaction_count": 174,
+                "average_ticket_size_inr": 4562,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001031000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 3417,
+            "current_balance_inr": 750
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 3,
+            "ecs_mandate_failures": 4,
+            "inward_outward_ratio": 0.86,
+            "days_with_negative_or_zero_balance": 22
+        }
+    }
+}

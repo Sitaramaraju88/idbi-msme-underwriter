@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "Dynamic Traders #1001",
+        "pan": "AAKCA1001M",
+        "gstin": "27BBBBB1001Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 15,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 652122,
+                    "tax_paid_inr": 117381,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 763744,
+                    "tax_paid_inr": 137473,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 883493,
+                    "tax_paid_inr": 159028,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 1001447,
+                    "tax_paid_inr": 180260,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1117161,
+                    "tax_paid_inr": 201088,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1239256,
+                    "tax_paid_inr": 223066,
+                    "filed_on_time": false
+                }
+            ],
+            "concentration_risk_pct": 62.17
+        },
+        "upi_data": {
+            "vpa": "factory1001@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 222013,
+                "total_transaction_count": 143,
+                "average_ticket_size_inr": 3207,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001001000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 2017,
+            "current_balance_inr": 341
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 5,
+            "ecs_mandate_failures": 1,
+            "inward_outward_ratio": 0.79,
+            "days_with_negative_or_zero_balance": 10
+        }
+    }
+}

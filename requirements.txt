@@ -1,0 +1,17 @@
+# Web Interface & Visualizations
+streamlit==1.40.0
+plotly==5.22.0
+pandas==2.2.2
+
+# Multi-Agent Framework & LLM Orchestration
+crewai==0.32.0
+langchain-core==0.2.10
+langchain-openai==0.1.9
+
+# Data Parsing & Validation
+pydantic==2.7.4
+numpy==1.26.4
+requests==2.32.3
+
+# Environment Configuration
+python-dotenv==1.0.1

@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "business_name": "Zenith Industries #1010",
+        "pan": "AAKCA1010M",
+        "gstin": "27BBBBB1010Z2",
+        "constitution": "Private Limited",
+        "segment": "NTB",
+        "archetype": "distressed_manufacturer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 15,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 648915,
+                    "tax_paid_inr": 116804,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 777606,
+                    "tax_paid_inr": 139969,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 915369,
+                    "tax_paid_inr": 164766,
+                    "filed_on_time": false
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 1041542,
+                    "tax_paid_inr": 187477,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 1132997,
+                    "tax_paid_inr": 203939,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 1271064,
+                    "tax_paid_inr": 228791,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 61.13
+        },
+        "upi_data": {
+            "vpa": "factory1010@okaxis",
+            "summary_past_90_days": {
+                "total_volume_inr": 425083,
+                "total_transaction_count": 139,
+                "average_ticket_size_inr": 2601,
+                "monthly_velocity_trend": "declining",
+                "weekend_vs_weekday_ratio": 0.2
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001010000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 10,
+                    "total_contribution_inr": 20000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 15,
+                    "total_contribution_inr": 30000
+                },
+                {
+                    "month": "2026-04",
+                    "employee_count": 20,
+                    "total_contribution_inr": 40000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "HDFC Bank",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 1727,
+            "current_balance_inr": 852
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 3,
+            "ecs_mandate_failures": 4,
+            "inward_outward_ratio": 0.91,
+            "days_with_negative_or_zero_balance": 12
+        }
+    }
+}

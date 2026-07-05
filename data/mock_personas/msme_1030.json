@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        "business_name": "Balaji Stores #1030",
+        "pan": "BKPPS1030K",
+        "gstin": "27AAAAA1030Z1",
+        "constitution": "Proprietorship",
+        "segment": "NTC",
+        "archetype": "healthy_retailer"
+    },
+    "uli_payload": {
+        "gst_data": {
+            "vintage_months": 58,
+            "gstr_3b_history": [
+                {
+                    "month": "2026-06",
+                    "turnover_inr": 536001,
+                    "tax_paid_inr": 26800,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-05",
+                    "turnover_inr": 537612,
+                    "tax_paid_inr": 26880,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-04",
+                    "turnover_inr": 532405,
+                    "tax_paid_inr": 26620,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-03",
+                    "turnover_inr": 550804,
+                    "tax_paid_inr": 27540,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-02",
+                    "turnover_inr": 549636,
+                    "tax_paid_inr": 27481,
+                    "filed_on_time": true
+                },
+                {
+                    "month": "2026-01",
+                    "turnover_inr": 561538,
+                    "tax_paid_inr": 28076,
+                    "filed_on_time": true
+                }
+            ],
+            "concentration_risk_pct": 11.1
+        },
+        "upi_data": {
+            "vpa": "merchant1030@okhdfcbank",
+            "summary_past_90_days": {
+                "total_volume_inr": 1241665,
+                "total_transaction_count": 4930,
+                "average_ticket_size_inr": 235,
+                "monthly_velocity_trend": "stable",
+                "weekend_vs_weekday_ratio": 1.32
+            }
+        },
+        "epfo_data": {
+            "establishment_id": "MHBAN001030000",
+            "payroll_history": [
+                {
+                    "month": "2026-06",
+                    "employee_count": 5,
+                    "total_contribution_inr": 10000
+                },
+                {
+                    "month": "2026-05",
+                    "employee_count": 5,
+                    "total_contribution_inr": 10000
+                }
+            ]
+        }
+    },
+    "aa_payload": {
+        "account_summary": {
+            "bank_name": "State Bank of India",
+            "account_type": "CURRENT",
+            "average_daily_balance_3m_inr": 57278,
+            "current_balance_inr": 63001
+        },
+        "risk_triggers_past_180_days": {
+            "cheque_bounces": 0,
+            "ecs_mandate_failures": 0,
+            "inward_outward_ratio": 1.05,
+            "days_with_negative_or_zero_balance": 0
+        }
+    }
+}
